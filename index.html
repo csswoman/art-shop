@@ -1,495 +1,430 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/fontawesome-all.min.css" />
     <link rel="stylesheet" href="css/main.css" />
     <title>Celeste | Art Shop</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <div class="container">
-        <div
-          class="row justify-content-lg-between justify-content-center py-3 align-items-center"
-        >
-          <div class="col col-auto order-2 order-lg-1">
-            <ul class="nav">
-              <li class="nav-item">
-                <a href="#" class="nav-link active">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Portafolio</a>
-              </li>
-            </ul>
-          </div>
-          <div
-            class="col-12 col-lg justify-content-center col-auto order-1 order-lg-2 d-flex"
-          >
-            <img src="./img/logo.png" alt="" />
-          </div>
-          <div class="col col-auto order-3">
-            <ul class="nav">
-              <li class="nav-item">
-                <a href="#" class="nav-link">Tienda</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Contacto</a>
-              </li>
-            </ul>
-          </div>
+        <div class="container">
+            <div class="row justify-content-lg-between justify-content-center py-3 align-items-center">
+                <div class="col col-auto order-2 order-lg-1">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Portafolio</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg justify-content-center col-auto order-1 order-lg-2 d-flex">
+                    <img src="./img/logo.png" width="150px" alt="" />
+                </div>
+                <div class="col col-auto order-3">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
     </header>
 
     <section class="main">
-      <div class="container">
-        <section class="row main-carousel">
-          <div class="col">
-            <div
-              id="carouselDestacado"
-              class="carousel slide"
-              data-ride="carousel"
-              data-interval="5000"
-            >
-              <ol class="carousel-indicators">
-                <li
-                  data-target="#carouselDestacado"
-                  data-slide-to="0"
-                  class="active"
-                ></li>
-                <li data-target="#carouselDestacado" data-slide-to="1"></li>
-                <li data-target="#carouselDestacado" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img
-                    src="./img/carousel.jpeg"
-                    class="d-block w-100"
-                    height="600px"
-                    alt=""
-                  />
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Productos exclusivos</h5>
-                    <p>
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Consectetur, pariatur!
-                    </p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="./img/carousel-2.jpeg"
-                    class="d-block w-100"
-                    height="600px"
-                    alt=""
-                  />
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Los mejores artículos</h5>
-                    <p>
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Consectetur, pariatur!
-                    </p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="./img/carousel-3.jpeg"
-                    class="d-block w-100"
-                    height="600px"
-                    alt=""
-                  />
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Calidad garantizada</h5>
-                    <p>
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Consectetur, pariatur!
-                    </p>
-                  </div>
-                </div>
-              </div>
+        <div class="container">
+            <section class="row main-carousel">
+                <div class="col">
+                    <div id="carouselDestacado" class="carousel slide" data-ride="carousel" data-interval="5000">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselDestacado" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselDestacado" data-slide-to="1"></li>
+                            <li data-target="#carouselDestacado" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/carousel.jpeg" class="d-block w-100" alt="" />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Productos exclusivos</h5>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Consectetur, pariatur!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/carousel-2.jpeg" class="d-block w-100" alt="" />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Los mejores artículos</h5>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Consectetur, pariatur!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/carousel-3.jpeg" class="d-block w-100" alt="" />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Calidad garantizada</h5>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Consectetur, pariatur!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
-              <a
-                href="#carouselDestacado"
-                class="carousel-control-prev"
-                data-slide="prev"
-              >
-                <span class="carousel-control-prev-icon"></span>
-                <span class="sr-only">Anterior</span>
-              </a>
-              <a
-                href="#carouselDestacado"
-                class="carousel-control-next"
-                data-slide="next"
-              >
-                <span class="carousel-control-next-icon"></span>
-                <span class="sr-only">Siguiente</span>
-              </a>
-            </div>
-          </div>
-        </section>
+                        <a href="#carouselDestacado" class="carousel-control-prev" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="sr-only">Anterior</span>
+                        </a>
+                        <a href="#carouselDestacado" class="carousel-control-next" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="sr-only">Siguiente</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
 
-        <section class="row products-masonry-container">
-          <div class="col">
-            <div
-              class="products-masonry-filter mt-4 mt-lg-5 mb-4 border-top border-bottom py-3"
-            >
-              <ul class="nav nav-pills nav-fill">
-                <li class="nav-item">
-                  <a href="#todos" class="nav-link active" data-toggle="tab"
-                    >Todos</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a href="#arte" class="nav-link" data-toggle="tab">Arte</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#escolar" class="nav-link" data-toggle="tab"
-                    >Escolar</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a href="#oficina" class="nav-link" data-toggle="tab"
-                    >Oficina</a
-                  >
-                </li>
-              </ul>
-            </div>
+            <section class="row products-masonry-container">
+                <div class="col">
+                    <div class="products-masonry-filter mt-4 mt-lg-5 mb-4 border-top border-bottom py-3">
+                        <ul class="nav nav-pills nav-fill">
+                            <li class="nav-item">
+                                <a href="#todos" class="nav-link active" data-toggle="tab">Todos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#arte" class="nav-link" data-toggle="tab">Arte</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#escolar" class="nav-link" data-toggle="tab">Escolar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#oficina" class="nav-link" data-toggle="tab">Oficina</a>
+                            </li>
+                        </ul>
+                    </div>
 
-            <div class="products-masonry">
-              <div class="tab-content">
-                <div class="tab-pane fade show active" id="todos">
-                  <div class="card-columns">
-                    <div class="card">
-                      <img
-                        src="./img/products/all-1.jpeg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$10</p>
-                      </div>
+                    <div class="products-masonry">
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="todos">
+                                <div class="card-columns">
+                                    <div class="card">
+                                        <img src="./img/products/all-1.jpeg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$10</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/products/all-2.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$15</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/products/all-3.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$10</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/products/all-4.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$3</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/products/all-5.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$6</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/products/all-6.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$5</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/products/all-7.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$10</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/products/all-8.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$8</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/products/all-9.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$12</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show" id="arte">
+                                <div class="card-columns">
+                                    <div class="card">
+                                        <img src="./img/products/supplies-1.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$10</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/products/supplies-2.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$15</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/products/supplies-3.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$10</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/products/supplies-4.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$3</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/products/supplies-5.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$6</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/products/supplies-6.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show" id="escolar">
+                                <div class="card-columns">
+                                    <div class="card">
+                                        <img src="./img/products/school-1.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$10</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/products/school-2.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$15</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/products/school-3.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$10</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/products/school-4.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$3</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/products/school-5.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$6</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/products/school-6.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show" id="oficina">
+                                <div class="card-columns">
+                                    <div class="card">
+                                        <img src="./img/products/office-1.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$10</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/products/office-2.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$15</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/products/office-3.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$10</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/products/office-4.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$3</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/products/office-5.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$6</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/products/office-6.jpg" class="card-img-top" alt="" />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lorem Ipsum</h5>
+                                            <p class="card-text">$5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card">
-                      <img
-                        src="./img/products/all-2.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$15</p>
-                      </div>
+
+                    <div class="call-to-action-container text-center border-bottom border-top mb-5 py-5">
+                        <p>Visita nuestra tienda completa y escoge el producto que más te guste</p>
+                        <a href="#" class="btn btn-outline-primary font-weight-light text-uppercase">Ver tienda</a>
                     </div>
-                    <div class="card">
-                      <img
-                        src="./img/products/all-3.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$10</p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img
-                        src="./img/products/all-4.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$3</p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img
-                        src="./img/products/all-5.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$6</p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img
-                        src="./img/products/all-6.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$5</p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img
-                        src="./img/products/all-7.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$10</p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img
-                        src="./img/products/all-8.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$8</p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img
-                        src="./img/products/all-9.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$12</p>
-                      </div>
-                    </div>
-                  </div>
+
                 </div>
-                <div class="tab-pane fade show" id="arte">
-                  <div class="card-columns">
-                    <div class="card">
-                      <img
-                        src="./img/products/supplies-1.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$10</p>
-                      </div>
+            </section>
+
+            <section class="row latest-news">
+                <div class="col-lg mb-3 mb-lg-0">
+                    <div class="featured-post">
+                        <div id="featuredPostCarousel" class="carousel slide" data-interval="false">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="featured-post-inner">
+                                        <div class="featured-post-info">
+                                            <h4>Lorem ipsum dolor sit.</h4>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae,
+                                                ipsam.</p>
+                                            <p class="post-meta d-flex justify-content-between">
+                                                <span>Por Alex Santiago</span>
+                                                <span>29 de octubre - 2020</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="featured-post-inner">
+                                        <div class="featured-post-info">
+                                            <h4>Lorem ipsum sit.</h4>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae,
+                                                ipsam. Lorem ipsum dolor sit amet consectetur.</p>
+                                            <p class="post-meta d-flex justify-content-between">
+                                                <span>Por Teresa Palacios</span>
+                                                <span>24 de octubre - 2020</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card">
-                      <img
-                        src="./img/products/supplies-2.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$15</p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img
-                        src="./img/products/supplies-3.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$10</p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img
-                        src="./img/products/supplies-4.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$3</p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img
-                        src="./img/products/supplies-5.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$6</p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img
-                        src="./img/products/supplies-6.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$5</p>
-                      </div>
-                    </div>
-                  </div>
                 </div>
-                <div class="tab-pane fade show" id="escolar">
-                  <div class="card-columns">
-                    <div class="card">
-                      <img
-                        src="./img/products/school-1.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$10</p>
-                      </div>
+                <div class="col-lg">
+                    <div class="row post mb-3">
+                        <div class="col-sm-4">
+                            <img class="img-fluid" src="./img/blog/blog-2.jpg" alt="">
+                        </div>
+                        <div class="col-sm-8">
+                            <h4>Lorem ipsum dolor sit.</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae,
+                                ipsam.</p>
+                            <p class="post-meta d-flex justify-content-between">
+                                <span>Por Alex Santiago</span>
+                                <span>29 de octubre - 2020</span>
+                            </p>
+                        </div>
                     </div>
-                    <div class="card">
-                      <img
-                        src="./img/products/school-2.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$15</p>
-                      </div>
+                    <div class="row post mb-3">
+                        <div class="col-sm-4">
+                            <img class="img-fluid" src="./img/blog/blog-3.jpeg" alt="">
+                        </div>
+                        <div class="col-sm-8">
+                            <h4>Lorem ipsum dolor sit.</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae,
+                                ipsam.</p>
+                            <p class="post-meta d-flex justify-content-between">
+                                <span>Por Alex Santiago</span>
+                                <span>29 de octubre - 2020</span>
+                            </p>
+                        </div>
                     </div>
-                    <div class="card">
-                      <img
-                        src="./img/products/school-3.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$10</p>
-                      </div>
+                    <div class="row post mb-3">
+                        <div class="col-sm-4">
+                            <img class="img-fluid" src="./img/blog/blog-4.jpeg" alt="">
+                        </div>
+                        <div class="col-sm-8">
+                            <h4>Lorem ipsum dolor sit.</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae,
+                                ipsam.</p>
+                            <p class="post-meta d-flex justify-content-between">
+                                <span>Por Alex Santiago</span>
+                                <span>29 de octubre - 2020</span>
+                            </p>
+                        </div>
                     </div>
-                    <div class="card">
-                      <img
-                        src="./img/products/school-4.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$3</p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img
-                        src="./img/products/school-5.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$6</p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img
-                        src="./img/products/school-6.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$5</p>
-                      </div>
-                    </div>
-                  </div>
                 </div>
-                <div class="tab-pane fade show" id="oficina">
-                  <div class="card-columns">
-                    <div class="card">
-                      <img
-                        src="./img/products/office-1.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$10</p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img
-                        src="./img/products/office-2.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$15</p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img
-                        src="./img/products/office-3.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$10</p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img
-                        src="./img/products/office-4.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$3</p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img
-                        src="./img/products/office-5.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$6</p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img
-                        src="./img/products/office-6.jpg"
-                        class="card-img-top"
-                        alt=""
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">$5</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
+            </section>
+        </div>
     </section>
 
     <script src="js/jquery.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
-  </body>
+</body>
+
 </html>
