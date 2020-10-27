@@ -341,11 +341,11 @@
 
             <section class="row latest-news">
                 <div class="col-lg mb-3 mb-lg-0">
-                    <div class="featured-post">
-                        <div id="featuredPostCarousel" class="carousel slide" data-interval="false">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="featured-post-inner">
+                    <div class="featured-post h-100">
+                        <div id="featuredPostCarousel" class="carousel slide h-100" data-interval="false">
+                            <div class="carousel-inner h-100">
+                                <div class="carousel-item h-100 active">
+                                    <div class="featured-post-inner h-100 d-flex align-items-end featured-post-1">
                                         <div class="featured-post-info">
                                             <h4>Lorem ipsum dolor sit.</h4>
                                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae,
@@ -358,7 +358,7 @@
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <div class="featured-post-inner">
+                                    <div class="featured-post-inner h-100 d-flex align-items-end featured-post-2">
                                         <div class="featured-post-info">
                                             <h4>Lorem ipsum sit.</h4>
                                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae,
@@ -371,10 +371,19 @@
                                     </div>
                                 </div>
                             </div>
+                            <a href="#featuredPostCarousel" class="carousel-control-prev" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                                <span class="sr-only">Anterior</span>
+                            </a>
+                            <a href="#featuredPostCarousel" class="carousel-control-next" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                                <span class="sr-only">Siguiente</span>
+                            </a>
+
                         </div>
                     </div>
                 </div>
-                <div class="col-lg">
+                <div class="col-lg d-none d-sm-block">
                     <div class="row post mb-3">
                         <div class="col-sm-4">
                             <img class="img-fluid" src="./img/blog/blog-2.jpg" alt="">
@@ -420,6 +429,19 @@
                 </div>
             </section>
         </div>
+
+        <section class="section contact bg-dark mt-5">
+            <div class="container">
+                <div class="row py-5 justify-content-center align-items-center">
+                    <div class="col col-auto mb-4 mb-md-0">
+                        <p class="text-white mb-0">¿Necesitas ayuda? Estamos aquí para ti.</p>
+                    </div>
+                    <div class="col col-auto">
+                        <a href="#" class="btn btn-primary">Contáctanos</a>
+                    </div>
+                </div> 
+            </div>
+        </section>
     </section>
 
     <script src="js/jquery.js"></script>
